@@ -1,4 +1,4 @@
-FROM node:11.10-alpine as builder
+FROM node:12.6-alpine as builder
 
 ENV NODE_ENV=production
 ARG GITHUB_CLIENT_ID
